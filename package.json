@@ -1,0 +1,13 @@
+{
+  "name": "vanilla-html-app",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --port=3000 --host=0.0.0.0",
+    "build": "mkdir -p dist && cp index.html dist/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

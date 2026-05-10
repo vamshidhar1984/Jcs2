@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Primary Meta Tags -->
+  <title>JCS Industries - Premium Cement Bricks & Blocks in Telangana</title>
+  <meta name="title" content="JCS Industries - Premium Cement Bricks & Blocks in Telangana">
+  <meta name="description" content="Leading manufacturer of high-compression, high-density cement bricks and blocks. Serving Jadcherla, Mahabubnagar, and surrounding regions in Telangana with rock-solid quality.">
+  <meta name="keywords" content="cement bricks, concrete blocks, high-density bricks, solid blocks, construction materials, JCS Industries, Jadcherla, Mahabubnagar, Telangana, cement products">
+  <meta name="author" content="JCS Industries">
+  <meta name="robots" content="index, follow">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="JCS Industries - Premium Cement Bricks & Blocks">
+  <meta property="og:description" content="Leading manufacturer of high-compression, high-density cement bricks and blocks. Serving Jadcherla and Mahabubnagar regions.">
+  <meta property="og:locale" content="en_IN">
+
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="JCS Industries - Premium Cement Bricks">
+  <meta property="twitter:description" content="Leading manufacturer of high-compression, high-density cement bricks and blocks in Telangana.">
+
+  <!-- Local Business Schema Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "JCS Industries",
+      "image": "",
+      "description": "Leading manufacturer of high-compression, high-density cement bricks and blocks. Engineered for superior strength.",
+      "telephone": "+91-9919913482",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "10-155, Kalwakurthy Hwy, Gangapur Village",
+        "addressLocality": "Jadcherla",
+        "addressRegion": "TG",
+        "postalCode": "509302",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 16.7628,
+        "longitude": 78.1408
+      },
+      "url": "https://jcsindustries.in/",
+      "priceRange": "$$"
+    }
+  </script>
+
+  <!-- Phosphor Icons -->
+  <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <!-- Google Fonts: Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <style>
+    /* CSS Variables for Theme */
+    :root {
+      --bg-color: #f8fafc;
+      --surface-color: #ffffff;
+      --dark-slate: #0f172a;
+      --text-main: #334155;
+      --text-muted: #64748b;
+      --accent-orange: #ea580c;
+      --accent-orange-light: #fb923c;
+      --border-color: #e2e8f0;
+      
+      --radius-sm: 8px;
+      --radius-md: 16px;
+      --radius-lg: 24px;
+      --radius-xl: 32px;
+      --radius-full: 9999px;
+      
+      --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+      --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+      --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+      --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-main);
+      line-height: 1.5;
+      -webkit-font-smoothing: antialiased;
+      min-height: 100vh;
+      user-select: none;
+    }
+
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 6.5rem;
+    }
+
+    /* Container constraint */
+    .container {
+      max-width: 672px;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: var(--surface-color);
+      box-shadow: var(--shadow-2xl);
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 1.5rem;
+      background-color: var(--surface-color);
+      border-bottom: 1px solid var(--border-color);
+      position: sticky;
+      top: 0;
+      z-index: 50;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .logo-icon {
+      width: 40px;
+      height: 40px;
+      background-color: var(--accent-orange);
+      border-radius: var(--radius-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 1.5rem;
+    }
+
+    .logo-text-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo-title {
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: var(--dark-slate);
+      line-height: 1;
+      text-transform: uppercase;
+      letter-spacing: -0.05em;
+    }
+
+    .logo-subtitle {
+      font-weight: 700;
+      font-size: 10px;
+      color: var(--accent-orange);
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      line-height: 1;
+      margin-top: 2px;
+    }
+
+    .header-actions {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .lang-select {
+      appearance: none;
+      background-color: #f1f5f9;
+      border: none;
+      border-radius: 12px;
+      padding: 0.5rem 2.25rem 0.5rem 0.75rem;
+      font-size: 0.875rem;
+      font-weight: 700;
+      color: var(--dark-slate);
+      cursor: pointer;
+      outline: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23334155'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 0.5rem center;
+      background-size: 1rem;
+    }
+
+    .lang-select:focus {
+      box-shadow: 0 0 0 2px var(--accent-orange);
+    }
+
+    .btn-location {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: transparent;
+      color: var(--text-main);
+      text-decoration: none;
+      padding: 0.5rem;
+      border-radius: 12px;
+      transition: background-color 0.2s, transform 0.1s;
+    }
+    
+    .btn-location:hover {
+      background-color: #f1f5f9;
+    }
+
+    .btn-location:active {
+      transform: scale(0.95);
+    }
+
+    .btn-contact {
+      display: none;
+    }
+    
+    @media (min-width: 400px) {
+      .btn-contact {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+        background-color: var(--dark-slate);
+        color: white;
+        text-decoration: none;
+        padding: 0.625rem 1rem;
+        border-radius: 12px;
+        font-weight: 700;
+        font-size: 0.875rem;
+        transition: transform 0.1s;
+      }
+      .btn-contact:active {
+        transform: scale(0.95);
+      }
+    }
+
+    /* Main Stack Layout */
+    .main-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+      padding: 1.5rem;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: var(--dark-slate);
+      border-radius: var(--radius-xl);
+      padding: 2.5rem 2rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+      box-shadow: var(--shadow-md);
+      color: white;
+    }
+
+    /* Glowing circle in hero bg */
+    .hero::after {
+      content: '';
+      position: absolute;
+      right: -5rem;
+      bottom: -5rem;
+      width: 15rem;
+      height: 15rem;
+      background-color: rgba(234, 88, 12, 0.2);
+      border-radius: 50%;
+      filter: blur(3rem);
+      pointer-events: none;
+    }
+
+    .hero > * {
+      position: relative;
+      z-index: 10;
+    }
+
+    .hero-tag {
+      align-self: flex-start;
+      background-color: rgba(234, 88, 12, 0.2);
+      color: var(--accent-orange-light);
+      padding: 0.25rem 0.75rem;
+      border-radius: var(--radius-full);
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-title {
+      font-size: 2.5rem;
+      font-weight: 900;
+      line-height: 1.1;
+      margin-bottom: 1rem;
+      letter-spacing: -0.025em;
+    }
+    
+    .hero-title span {
+      color: var(--accent-orange);
+    }
+
+    .hero-desc {
+      font-size: 1rem;
+      color: #94a3b8;
+      margin-bottom: 2rem;
+      line-height: 1.625;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    
+    @media (min-width: 500px) {
+      .hero-buttons {
+        flex-direction: row;
+      }
+    }
+
+    .btn-primary {
+      background-color: var(--accent-orange);
+      color: white;
+      padding: 1rem 1.5rem;
+      border-radius: var(--radius-md);
+      font-weight: 700;
+      font-size: 1rem;
+      transition: background-color 0.2s;
+      border: none;
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .btn-primary:hover {
+      background-color: #f97316;
+    }
+
+    .btn-primary:active {
+      transform: scale(0.98);
+    }
+
+    .btn-secondary {
+      background-color: transparent;
+      color: white;
+      padding: 1rem 1.5rem;
+      border-radius: var(--radius-md);
+      font-weight: 700;
+      font-size: 1rem;
+      transition: background-color 0.2s, transform 0.1s;
+      border: 1px solid var(--text-muted);
+      cursor: pointer;
+      text-align: center;
+    }
+
+    .btn-secondary:hover {
+      background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .btn-secondary:active {
+      transform: scale(0.98);
+    }
+
+    /* Capacity Card */
+    .capacity-card {
+      background: linear-gradient(to bottom right, #ea580c, #fb923c);
+      border-radius: var(--radius-xl);
+      padding: 2rem;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 10px 15px -3px rgba(251, 146, 60, 0.4);
+    }
+
+    .capacity-big {
+      font-size: 3.5rem;
+      font-weight: 900;
+      line-height: 1;
+    }
+
+    .capacity-sub {
+      font-size: 0.875rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: 1.5rem;
+    }
+
+    .capacity-stats {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(0,0,0,0.1);
+      padding: 1rem;
+      border-radius: var(--radius-md);
+    }
+
+    .stat-item {
+      text-align: center;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      font-weight: 700;
+      font-size: 1rem;
+    }
+    
+    .stat-divider {
+      width: 1px;
+      height: 2rem;
+      background-color: rgba(255,255,255,0.2);
+    }
+
+    .capacity-desc {
+      margin-top: 1.5rem;
+      font-size: 0.875rem;
+      font-weight: 500;
+      line-height: 1.5;
+      opacity: 0.9;
+    }
+
+    /* Location Card */
+    .location-card {
+      background-color: white;
+      border-radius: var(--radius-xl);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--border-color);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .location-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+    }
+
+    .location-title {
+      font-weight: 900;
+      text-transform: uppercase;
+      font-size: 0.875rem;
+      letter-spacing: 0.05em;
+      color: var(--dark-slate);
+      line-height: 1.2;
+    }
+
+    .location-subtitle {
+      font-size: 10px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      font-weight: 700;
+      display: block;
+    }
+
+    .map-container {
+      background-color: #e2e8f0;
+      border-radius: 16px;
+      overflow: hidden;
+      position: relative;
+      height: 200px;
+      margin-bottom: 1rem;
+    }
+
+    .map-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .location-address {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.5rem;
+      font-size: 0.875rem;
+      font-weight: 600;
+      line-height: 1.4;
+      color: var(--dark-slate);
+    }
+
+    .location-address i {
+      color: var(--accent-orange);
+      font-size: 1.25rem;
+      margin-top: 2px;
+    }
+
+    /* Features Section */
+    .features-wrapper {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .feature-card {
+      background-color: #f8fafc;
+      border-radius: 20px;
+      padding: 1.25rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      border: 1px solid var(--border-color);
+    }
+
+    .feature-icon {
+      width: 48px;
+      height: 48px;
+      background-color: #ffedd5;
+      color: var(--accent-orange);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .feature-content h3 {
+      font-size: 0.875rem;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: var(--dark-slate);
+      margin-bottom: 0.25rem;
+    }
+
+    .feature-content p {
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      line-height: 1.5;
+    }
+
+    /* Contact Card */
+    .contact-card {
+      background-color: var(--dark-slate);
+      border-radius: var(--radius-xl);
+      padding: 2.5rem 2rem;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      box-shadow: var(--shadow-md);
+    }
+    
+    .contact-tag {
+      color: var(--accent-orange-light);
+      background-color: rgba(234, 88, 12, 0.2);
+      padding: 0.25rem 0.75rem;
+      border-radius: var(--radius-full);
+      font-size: 10px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 1.5rem;
+      align-self: flex-start;
+      display: block;
+    }
+
+    .contact-title {
+      font-size: 2rem;
+      font-weight: 900;
+      margin-bottom: 1.5rem;
+      line-height: 1.2;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      padding-bottom: 1.5rem;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+      margin-bottom: 1.5rem;
+    }
+    
+    .company-name {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #94a3b8;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .phone-number {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: white;
+    }
+    
+    .phone-number i {
+      color: var(--accent-orange);
+    }
+    
+    .contact-sizes {
+      color: #cbd5e1;
+      font-size: 0.875rem;
+      font-weight: 600;
+    }
+
+    /* Footer */
+    .footer {
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .footer-copy {
+      color: #64748b;
+      font-size: 0.875rem;
+      font-weight: 500;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <div class="logo-area">
+        <div class="logo-icon">
+          <i class="ph-fill ph-factory"></i>
+        </div>
+        <div class="logo-text-wrapper">
+          <span class="logo-title" data-i18n="header_title">JCS INDUSTRIES</span>
+          <span class="logo-subtitle" data-i18n="header_subtitle">CEMENT BRICKS</span>
+        </div>
+      </div>
+      <div class="header-actions">
+        <a href="#location-section" class="btn-location">
+          <i class="ph-fill ph-map-pin" style="color: var(--accent-orange); font-size: 1.25rem;"></i>
+        </a>
+        <select id="langSelect" class="lang-select">
+          <option value="en">EN</option>
+          <option value="te">తెలుగు</option>
+          <option value="hi">हिंदी</option>
+        </select>
+        <a href="tel:+919919913482" class="btn-contact">
+          <i class="ph-fill ph-phone"></i>
+          <span data-i18n="btn_contact">Contact</span>
+        </a>
+      </div>
+    </header>
+
+    <main class="main-content">
+      <!-- Hero Section -->
+      <section class="hero">
+        <span class="hero-tag" data-i18n="hero_tag">Serving the Mahabubnagar Region</span>
+        <h1 class="hero-title" data-i18n="hero_title">Rock Solid. Cement. Bricks.</h1>
+        <p class="hero-desc" data-i18n="hero_desc">Leading manufacturer of high-compression, high-density cement bricks and blocks. Engineered for superior strength.</p>
+        <div class="hero-buttons">
+          <a href="#capacity-section" class="btn-primary" data-i18n="btn_capacity" style="text-decoration: none; display: flex; align-items: center; justify-content: center;">See Our Capacity</a>
+          <a href="#process-section" class="btn-secondary" data-i18n="btn_process" style="text-decoration: none; display: flex; align-items: center; justify-content: center;">Learn Our Process</a>
+        </div>
+      </section>
+
+      <!-- Capacity Card -->
+      <section class="capacity-card" id="capacity-section">
+        <div class="capacity-big" data-i18n="cap_big">30k+</div>
+        <div class="capacity-sub" data-i18n="cap_sub">Bricks Daily Capacity</div>
+        <div class="capacity-stats">
+          <span class="stat-item" data-i18n="cap_stat1">10k+ Large</span>
+          <div class="stat-divider"></div>
+          <span class="stat-item" data-i18n="cap_stat2">20k+ Small</span>
+        </div>
+        <p class="capacity-desc" data-i18n="cap_desc">Our massive daily production ensures constant supply for large-scale commercial and residential infrastructure. No wait times, just rock-solid reliability.</p>
+      </section>
+
+      <!-- Features -->
+      <section class="features-wrapper" id="process-section">
+        <div class="feature-card">
+          <div class="feature-icon"><i class="ph-fill ph-hard-hat"></i></div>
+          <div class="feature-content">
+            <h3 data-i18n="feat1_title">Superior Strength</h3>
+            <p data-i18n="feat1_desc">Engineered with 15hp vibration and 15hp hydraulic pressure, making our bricks 30% heavier and highly durable.</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="ph-fill ph-buildings"></i></div>
+          <div class="feature-content">
+            <h3 data-i18n="feat2_title">Automated Machinery</h3>
+            <p data-i18n="feat2_desc">Manufactured using imported automated production lines and premium-grade brand cement for consistent quality.</p>
+          </div>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon"><i class="ph-fill ph-truck"></i></div>
+          <div class="feature-content">
+            <h3 data-i18n="feat3_title">Regional Delivery</h3>
+            <p data-i18n="feat3_desc">Fast and dedicated regional delivery network ensuring your supplies arrive on time without delay.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Location -->
+      <section class="location-card" id="location-section">
+        <div class="location-header">
+          <i class="ph-fill ph-map-pin" style="color: var(--accent-orange); font-size: 1.5rem;"></i>
+          <div>
+            <h2 class="location-title" data-i18n="loc_sub">Manufacturing Site</h2>
+          </div>
+        </div>
+        <div class="map-container">
+          <!-- Using Google Maps Embed API -->
+          <iframe 
+            src="https://maps.google.com/maps?q=JCS%20Industries%20Cement%20Bricks%2C%20Jadcherla%2C%20Telangana&t=&z=14&ie=UTF8&iwloc=&output=embed" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+        <div class="location-address">
+          <i class="ph-fill ph-map-pin"></i>
+          <span data-i18n="loc_address">10-155, Kalwakurthy Hwy, Gangapur Village, Jadcherla, Telangana 509302</span>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="contact-card">
+        <span class="contact-tag" data-i18n="foot_tag">For Order Inquiries</span>
+        <h2 class="contact-title" data-i18n="foot_title">Get In Touch</h2>
+        
+        <div class="contact-info">
+          <div class="company-name" data-i18n="header_title">JCS INDUSTRIES</div>
+          <a href="tel:+919919913482" style="text-decoration: none;">
+            <div class="phone-number">
+              <i class="ph-fill ph-phone-call"></i>
+              +91-9919913482
+            </div>
+          </a>
+        </div>
+
+        <div class="contact-sizes" data-i18n="foot_sizes">All standard sizes available</div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-copy" data-i18n="foot_copy">&copy; 2026 JCS Industries. All rights reserved.</div>
+    </footer>
+  </div>
+
+  <script>
+    // Dictionary object holding translations
+    const translations = {
+      en: {
+        "header_title": "JCS INDUSTRIES",
+        "header_subtitle": "CEMENT BRICKS",
+        "btn_contact": "Contact",
+        "hero_tag": "Serving the Mahabubnagar Region",
+        "hero_title": "Rock Solid. Cement. Bricks.",
+        "hero_desc": "Leading manufacturer of high-compression, high-density cement bricks and blocks. Engineered for superior strength.",
+        "btn_capacity": "See Our Capacity",
+        "btn_process": "Learn Our Process",
+        "cap_big": "30k+",
+        "cap_sub": "Bricks Daily Capacity",
+        "cap_stat1": "10k+ Large",
+        "cap_stat2": "20k+ Small",
+        "cap_desc": "Our massive daily production ensures constant supply for large-scale commercial and residential infrastructure. No wait times, just rock-solid reliability.",
+        "feat1_title": "Superior Strength",
+        "feat1_desc": "Engineered with 15hp vibration and 15hp hydraulic pressure, making our bricks 30% heavier and highly durable.",
+        "feat2_title": "Automated Machinery",
+        "feat2_desc": "Manufactured using imported automated production lines and premium-grade brand cement for consistent quality.",
+        "feat3_title": "Regional Delivery",
+        "feat3_desc": "Fast and dedicated regional delivery network ensuring your supplies arrive on time without delay.",
+        "loc_title": "Main Yard",
+        "loc_sub": "Manufacturing Site",
+        "loc_address": "10-155, Kalwakurthy Hwy, Gangapur Village, Jadcherla, Telangana 509302",
+        "foot_tag": "For Order Inquiries",
+        "foot_title": "Get In Touch",
+        "foot_sizes": "All standard sizes available",
+        "foot_copy": "© 2026 JCS Industries. All rights reserved."
+      },
+      te: {
+        "header_title": "JCS ఇండస్ట్రీస్",
+        "header_subtitle": "సిమెంట్ బ్రిక్స్",
+        "btn_contact": "సంప్రదించండి",
+        "hero_tag": "మహబూబ్ నగర్ ప్రాంతానికి సేవలు",
+        "hero_title": "రాక్ సాలిడ్. సిమెంట్. బ్రిక్స్.",
+        "hero_desc": "అధిక కంప్రెషన్, హై-డెన్సిటీ సిమెంట్ ఇటుకలు మరియు బ్లాక్‌ల తయారీలో అగ్రగామి. అత్యుత్తమ బలం కోసం రూపొందించబడింది.",
+        "btn_capacity": "సామర్థ్యం చూడండి",
+        "btn_process": "తయారీ విధానం",
+        "cap_big": "30k+",
+        "cap_sub": "రోజువారీ ఇటుకల తయారీ సామర్థ్యం",
+        "cap_stat1": "10k+ పెద్దవి",
+        "cap_stat2": "20k+ చిన్నవి",
+        "cap_desc": "మా భారీ రోజువారీ ఉత్పత్తి వాణిజ్య మరియు నివాస మౌలిక సదుపాయాల కోసం నిరంతర సరఫరాను నిర్ధారిస్తుంది. నిరీక్షించాల్సిన అవసరం లేదు, ఖచ్చితమైన నాణ్యత.",
+        "feat1_title": "అత్యుత్తమ బలం",
+        "feat1_desc": "15hp వైబ్రేషన్ మరియు 15hp హైడ్రాలిక్ ప్రెజర్‌తో రూపొందించబడిన మా ఇటుకలు 30% ఎక్కువ బరువు మరియు అత్యధిక మన్నికను కలిగి ఉంటాయి.",
+        "feat2_title": "ఆటోమేటెడ్ యంత్రాలు",
+        "feat2_desc": "దిగుమతి చేసుకున్న ఆటోమేటెడ్ యంత్రాలు మరియు ప్రీమియం గ్రేడ్ బ్రాండ్ అల్ట్రాటెక్ వంటి సిమెంట్ ఉపయోగించి తయారు చేయబడింది.",
+        "feat3_title": "ప్రాంతీయ డెలివరీ",
+        "feat3_desc": "సకాలంలో ఆలస్యం లేకుండా వేగంగా మీ దగ్గరకు సరుకులు చేరేలా డెడికేటెడ్ డెలివరీ నెట్‌వర్క్.",
+        "loc_title": "ప్రధాన తయారీ కేంద్రం",
+        "loc_sub": "మ్యానుఫ్యాక్చరింగ్ సైట్",
+        "loc_address": "కల్వకుర్తి-జడ్చర్ల హైవే, జడ్చర్ల, తెలంగాణ",
+        "foot_tag": "ఆర్డర్ ఎంక్వైరీల కోసం",
+        "foot_title": "సంప్రదించండి",
+        "foot_sizes": "అన్ని ప్రామాణిక పరిమాణాలు అందుబాటులో ఉన్నాయి",
+        "foot_copy": "© 2026 JCS ఇండస్ట్రీస్. అన్ని హక్కులు ప్రత్యేకించబడినవి."
+      },
+      hi: {
+        "header_title": "JCS इंडस्ट्रीज़",
+        "header_subtitle": "सीमेंट ब्रिक्स",
+        "btn_contact": "संपर्क करें",
+        "hero_tag": "महबूबनगर क्षेत्र में सेवारत",
+        "hero_title": "रॉक सॉलिड. सीमेंट. ब्रिक्स.",
+        "hero_desc": "उच्च-संपीड़न और उच्च-घनत्व सीमेंट ईंटों के प्रमुख निर्माता। बेहतर मजबूती के लिए डिज़ाइन किया गया।",
+        "btn_capacity": "हमारी क्षमता देखें",
+        "btn_process": "प्रक्रिया जानें",
+        "cap_big": "30k+",
+        "cap_sub": "दैनिक ईंट उत्पादन क्षमता",
+        "cap_stat1": "10k+ बड़ी",
+        "cap_stat2": "20k+ छोटी",
+        "cap_desc": "हमारा विशाल दैनिक उत्पादन बड़े पैमाने पर वाणिज्यिक और आवासीय बुनियादी ढांचे के लिए निरंतर आपूर्ति सुनिश्चित करता है। कोई प्रतीक्षा समय नहीं, केवल रॉक-सॉलिड विश्वसनीयता।",
+        "feat1_title": "बेहतर मजबूती",
+        "feat1_desc": "15hp कंपन और 15hp हाइड्रोलिक दबाव के साथ निर्मित, जिससे हमारी ईंटें 30% भारी और अत्यधिक टिकाऊ बनती हैं।",
+        "feat2_title": "स्वचालित मशीनरी",
+        "feat2_desc": "आयातित स्वचालित उत्पादन लाइनों और प्रीमियम-ग्रेड ब्रांड सीमेंट का उपयोग करके निर्मित।",
+        "feat3_title": "क्षेत्रीय डिलीवरी",
+        "feat3_desc": "तेज और समर्पित क्षेत्रीय डिलीवरी नेटवर्क सुनिश्चित करता है कि आपकी आपूर्ति बिना किसी देरी के समय पर पहुंचे।",
+        "loc_title": "मुख्य यार्ड",
+        "loc_sub": "उत्पादन स्थल",
+        "loc_address": "कलवाकुर्ती-जड़चेरला राजमार्ग, जड़चेरला, तेलंगाना",
+        "foot_tag": "ऑर्डर पूछताछ के लिए",
+        "foot_title": "संपर्क करें",
+        "foot_sizes": "सभी मानक आकार उपलब्ध हैं",
+        "foot_copy": "© 2026 JCS इंडस्ट्रीज़। सर्वाधिकार सुरक्षित।"
+      }
+    };
+
+    // Function to update the page based on selected language
+    function setLanguage(langCode) {
+      const elements = document.querySelectorAll('[data-i18n]');
+      const activeTranslations = translations[langCode] || translations['en'];
+
+      elements.forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (activeTranslations[key]) {
+          el.textContent = activeTranslations[key];
+        }
+      });
+      
+      // Update select value if not already
+      document.getElementById('langSelect').value = langCode;
+    }
+
+    // Initialize Event Listener
+    document.addEventListener('DOMContentLoaded', () => {
+      const selectElement = document.getElementById('langSelect');
+      
+      selectElement.addEventListener('change', (e) => {
+        setLanguage(e.target.value);
+      });
+      
+      // Set initial language
+      setLanguage('en');
+    });
+  </script>
+</body>
+</html>
