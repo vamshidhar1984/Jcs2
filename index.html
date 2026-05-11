@@ -424,6 +424,52 @@
       opacity: 0.9;
     }
 
+    /* Sizes Card */
+    .sizes-card {
+      background-color: var(--dark-slate);
+      color: white;
+      border-radius: var(--radius-xl);
+      padding: 1.5rem;
+      box-shadow: var(--shadow-sm);
+    }
+    
+    .sizes-header {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .sizes-title {
+      font-weight: 800;
+      text-transform: uppercase;
+      font-size: 1rem;
+      letter-spacing: 0.05em;
+      margin: 0;
+    }
+
+    .sizes-subtitle {
+      font-size: 0.75rem;
+      opacity: 0.8;
+      font-weight: 500;
+    }
+    
+    .sizes-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.75rem;
+    }
+    
+    .size-item {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 1rem 0.5rem;
+      border-radius: var(--radius-md);
+      text-align: center;
+      font-weight: 700;
+      font-size: 1.125rem;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
     /* Location Card */
     .location-card {
       background-color: white;
@@ -697,6 +743,25 @@
         </div>
       </section>
 
+      <!-- Sizes Section -->
+      <section class="sizes-card" id="sizes-section">
+        <div class="sizes-header">
+          <i class="ph-fill ph-ruler" style="color: var(--accent-orange); font-size: 1.5rem;"></i>
+          <div>
+            <h2 class="sizes-title" data-i18n="sizes_title">Product Sizes</h2>
+            <span class="sizes-subtitle" data-i18n="sizes_sub">Available Dimensions (inches)</span>
+          </div>
+        </div>
+        <div class="sizes-grid">
+          <div class="size-item">6" x 8" x 12"</div>
+          <div class="size-item">6" x 6" x 12"</div>
+          <div class="size-item">4" x 8" x 16"</div>
+          <div class="size-item">4" x 6" x 12"</div>
+          <div class="size-item">3" x 4" x 9"</div>
+          <div class="size-item">8" x 8" x 12"</div>
+        </div>
+      </section>
+
       <!-- Location -->
       <section class="location-card" id="location-section">
         <div class="location-header">
@@ -768,6 +833,8 @@
         "feat2_desc": "Manufactured using imported automated production lines and premium-grade brand cement for consistent quality.",
         "feat3_title": "Regional Delivery",
         "feat3_desc": "Fast and dedicated regional delivery network ensuring your supplies arrive on time without delay.",
+        "sizes_title": "Product Sizes",
+        "sizes_sub": "Available Dimensions (inches)",
         "loc_title": "Main Yard",
         "loc_sub": "Manufacturing Site",
         "loc_address": "10-155, Kalwakurthy Hwy, Gangapur Village, Jadcherla, Telangana 509302",
@@ -796,6 +863,8 @@
         "feat2_desc": "దిగుమతి చేసుకున్న ఆటోమేటెడ్ యంత్రాలు మరియు ప్రీమియం గ్రేడ్ బ్రాండ్ అల్ట్రాటెక్ వంటి సిమెంట్ ఉపయోగించి తయారు చేయబడింది.",
         "feat3_title": "ప్రాంతీయ డెలివరీ",
         "feat3_desc": "సకాలంలో ఆలస్యం లేకుండా వేగంగా మీ దగ్గరకు సరుకులు చేరేలా డెడికేటెడ్ డెలివరీ నెట్‌వర్క్.",
+        "sizes_title": "ఉత్పత్తుల పరిమాణాలు",
+        "sizes_sub": "అందుబాటులో ఉన్న కొలతలు (అంగుళాలలో)",
         "loc_title": "ప్రధాన తయారీ కేంద్రం",
         "loc_sub": "మ్యానుఫ్యాక్చరింగ్ సైట్",
         "loc_address": "కల్వకుర్తి-జడ్చర్ల హైవే, జడ్చర్ల, తెలంగాణ",
@@ -824,6 +893,8 @@
         "feat2_desc": "आयातित स्वचालित उत्पादन लाइनों और प्रीमियम-ग्रेड ब्रांड सीमेंट का उपयोग करके निर्मित।",
         "feat3_title": "क्षेत्रीय डिलीवरी",
         "feat3_desc": "तेज और समर्पित क्षेत्रीय डिलीवरी नेटवर्क सुनिश्चित करता है कि आपकी आपूर्ति बिना किसी देरी के समय पर पहुंचे।",
+        "sizes_title": "उत्पाद के आकार",
+        "sizes_sub": "उपलब्ध आयाम (इंच में)",
         "loc_title": "मुख्य यार्ड",
         "loc_sub": "उत्पादन स्थल",
         "loc_address": "कलवाकुर्ती-जड़चेरला राजमार्ग, जड़चेरला, तेलंगाना",
