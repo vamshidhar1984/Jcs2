@@ -104,7 +104,7 @@
 
     /* Container constraint */
     .container {
-      max-width: 672px;
+      max-width: 1200px;
       width: 100%;
       margin: 0 auto;
       display: flex;
@@ -835,6 +835,114 @@
       color: #64748b;
       font-size: 0.875rem;
       font-weight: 500;
+    }
+
+    /* Desktop and Tablet Layout */
+    @media (min-width: 768px) {
+      .main-content {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: stretch;
+        grid-auto-flow: dense;
+      }
+      
+      .hero {
+        grid-column: span 2;
+        padding: 4rem 3rem;
+      }
+      
+      .hero-title {
+        font-size: 3.5rem;
+      }
+      
+      .hero-desc {
+        font-size: 1.25rem;
+        max-width: 80%;
+      }
+      
+      .calculator-card {
+        grid-column: span 2;
+      }
+      
+      .location-card, .contact-card, .capacity-card, .sizes-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      
+      .features-wrapper {
+        justify-content: center;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .main-content {
+        grid-template-columns: repeat(3, 1fr);
+      }
+      
+      .hero {
+        grid-column: span 3;
+      }
+      
+      .capacity-card {
+        grid-column: span 1;
+      }
+      
+      .features-wrapper {
+        grid-column: span 2;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+      }
+      
+      .feature-card {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+      }
+      
+      .feature-card:nth-child(3) {
+        grid-column: span 2;
+        flex-direction: row;
+        align-items: center;
+      }
+      
+      .sizes-card {
+        grid-column: span 1;
+        justify-content: flex-start;
+      }
+      
+      .calculator-card {
+        grid-column: span 2;
+      }
+      
+      .location-card {
+        grid-column: span 2;
+        display: grid;
+        grid-template-columns: 1fr 1.5fr;
+        gap: 1.5rem;
+      }
+
+      .location-card > .map-container {
+        grid-column: 2;
+        grid-row: 1 / span 2;
+        height: 100%;
+        min-height: 200px;
+        margin-bottom: 0;
+      }
+
+      .location-card > .location-header {
+        align-self: end;
+        margin-bottom: 0;
+      }
+
+      .location-card > .location-address {
+        align-self: start;
+      }
+      
+      .contact-card {
+        grid-column: span 1;
+      }
     }
   </style>
 </head>
