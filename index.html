@@ -119,7 +119,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 1rem 1.5rem;
+      padding: 1rem 1rem;
       background-color: var(--surface-color);
       border-bottom: 1px solid var(--border-color);
       position: sticky;
@@ -130,7 +130,7 @@
     .logo-area {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
+      gap: 0.5rem;
     }
 
     .logo-icon {
@@ -152,7 +152,7 @@
 
     .logo-title {
       font-weight: 800;
-      font-size: 1.25rem;
+      font-size: 1.125rem;
       color: var(--dark-slate);
       line-height: 1;
       text-transform: uppercase;
@@ -172,7 +172,7 @@
     .header-actions {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
+      gap: 0.5rem;
     }
 
     .lang-select {
@@ -180,8 +180,8 @@
       background-color: #f1f5f9;
       border: none;
       border-radius: 12px;
-      padding: 0.5rem 2.25rem 0.5rem 0.75rem;
-      font-size: 0.875rem;
+      padding: 0.5rem 2rem 0.5rem 0.5rem;
+      font-size: 0.75rem;
       font-weight: 700;
       color: var(--dark-slate);
       cursor: pointer;
@@ -811,9 +811,10 @@
       display: inline-flex;
       align-items: center;
       gap: 0.5rem;
-      font-size: 1.5rem;
+      font-size: 1.125rem;
       font-weight: 700;
       color: white;
+      word-break: break-word;
     }
     
     .phone-number i {
@@ -853,6 +854,23 @@
       .hero {
         grid-column: span 2;
         padding: 4rem 3rem;
+      }
+      
+      .header {
+        padding: 1rem 1.5rem;
+      }
+
+      .logo-title {
+        font-size: 1.25rem;
+      }
+      
+      .header-actions {
+        gap: 0.75rem;
+      }
+      
+      .lang-select {
+        font-size: 0.875rem;
+        padding: 0.5rem 2.25rem 0.5rem 0.75rem;
       }
       
       .hero-title {
@@ -1208,7 +1226,7 @@
             </div>
           </a>
           <a href="mailto:manyam@jcsindustries.in" style="text-decoration: none; margin-top: 0.5rem;">
-            <div class="phone-number">
+            <div class="phone-number" style="font-size: 1rem;">
               <i class="ph-fill ph-envelope-simple"></i>
               manyam@jcsindustries.in
             </div>
