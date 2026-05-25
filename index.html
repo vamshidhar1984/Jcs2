@@ -216,27 +216,38 @@
       transform: scale(0.95);
     }
 
-    .btn-contact {
-      display: none;
+    .btn-contact-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: var(--dark-slate);
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem;
+      border-radius: 12px;
+      font-size: 1.25rem;
+      transition: transform 0.1s;
     }
     
-    @media (min-width: 400px) {
-      .btn-contact {
-        display: flex;
-        align-items: center;
-        gap: 0.5rem;
-        background-color: var(--dark-slate);
-        color: white;
-        text-decoration: none;
-        padding: 0.625rem 1rem;
-        border-radius: 12px;
-        font-weight: 700;
-        font-size: 0.875rem;
-        transition: transform 0.1s;
-      }
-      .btn-contact:active {
-        transform: scale(0.95);
-      }
+    .btn-contact-icon:active {
+      transform: scale(0.95);
+    }
+
+    .btn-whatsapp-icon {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #25D366;
+      color: white;
+      text-decoration: none;
+      padding: 0.5rem;
+      border-radius: 12px;
+      font-size: 1.25rem;
+      transition: transform 0.1s;
+    }
+
+    .btn-whatsapp-icon:active {
+      transform: scale(0.95);
     }
 
     /* Main Stack Layout */
@@ -767,22 +778,15 @@
     
     .contact-tag {
       color: var(--accent-orange-light);
-      background-color: rgba(234, 88, 12, 0.2);
-      padding: 0.25rem 0.75rem;
-      border-radius: var(--radius-full);
-      font-size: 10px;
-      font-weight: 700;
+      background-color: transparent;
+      padding: 0;
+      font-size: 2rem;
+      font-weight: 900;
       text-transform: uppercase;
-      letter-spacing: 0.1em;
+      letter-spacing: 0.05em;
       margin-bottom: 1.5rem;
       align-self: flex-start;
       display: block;
-    }
-
-    .contact-title {
-      font-size: 2rem;
-      font-weight: 900;
-      margin-bottom: 1.5rem;
       line-height: 1.2;
     }
 
@@ -969,9 +973,11 @@
           <option value="te">తెలుగు</option>
           <option value="hi">हिंदी</option>
         </select>
-        <a href="tel:+919919913482" class="btn-contact">
+        <a href="tel:+919919913482" class="btn-contact-icon">
           <i class="ph-fill ph-phone"></i>
-          <span data-i18n="btn_contact">Contact</span>
+        </a>
+        <a href="https://wa.me/919919913482?text=Hello%2C%20I%20would%20like%20to%20get%20a%20quote%20for%20your%20services" class="btn-whatsapp-icon" target="_blank" rel="noopener">
+          <i class="ph-fill ph-whatsapp-logo"></i>
         </a>
       </div>
     </header>
@@ -1192,7 +1198,6 @@
       <!-- Contact Section -->
       <section class="contact-card">
         <span class="contact-tag" data-i18n="foot_tag">For Order Inquiries</span>
-        <h2 class="contact-title" data-i18n="foot_title">Get In Touch</h2>
         
         <div class="contact-info">
           <div class="company-name" data-i18n="header_title">JCS INDUSTRIES</div>
@@ -1202,9 +1207,27 @@
               +91-9919913482
             </div>
           </a>
+          <a href="mailto:manyam@jcsindustries.in" style="text-decoration: none; margin-top: 0.5rem;">
+            <div class="phone-number">
+              <i class="ph-fill ph-envelope-simple"></i>
+              manyam@jcsindustries.in
+            </div>
+          </a>
         </div>
 
         <div class="contact-sizes" data-i18n="foot_sizes">All standard sizes available</div>
+
+        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+          <a href="tel:+919919913482" class="btn-contact-icon" style="background-color: rgba(255, 255, 255, 0.1);">
+            <i class="ph-fill ph-phone"></i>
+          </a>
+          <a href="https://wa.me/919919913482?text=Hello%2C%20I%20would%20like%20to%20get%20a%20quote%20for%20your%20services" class="btn-whatsapp-icon" target="_blank" rel="noopener">
+            <i class="ph-fill ph-whatsapp-logo"></i>
+          </a>
+          <a href="mailto:manyam@jcsindustries.in" class="btn-contact-icon" style="background-color: rgba(255, 255, 255, 0.1);">
+            <i class="ph-fill ph-envelope-simple"></i>
+          </a>
+        </div>
       </section>
     </main>
 
